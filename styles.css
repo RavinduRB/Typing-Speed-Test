@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.instructions {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.test-area {
+    margin-bottom: 20px;
+}
+
+#text-to-type {
+    font-size: 18px;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#typing-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 100px;
+}
+
+.error-highlight {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.result-area {
+    display: none;
+}
+
+#result {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#restart-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#restart-button:hover {
+    background-color: #0056b3;
+}
